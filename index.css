@@ -17,14 +17,14 @@ body {
 .bg4 {
   width: 100%;
   position: absolute;
-  bottom: -50px;
+  bottom: 0px;
   z-index: -1;
 }
 
 .bg5 {
   width: 100%;
   position: absolute;
-  bottom: -150px;
+  bottom: 0px;
   z-index: -1;
 }
 
@@ -39,7 +39,7 @@ body {
   margin-top: 30px;
 }
 
-ul {
+nav>ul {
   list-style-type: none;
   display: flex;
   gap: 40px;
@@ -64,6 +64,9 @@ ul {
   border: 5px solid white;
 }
 
+.active {
+  color: #83b0ee;
+}
 .yessa {
   color: white;
 }
@@ -126,19 +129,114 @@ footer {
   width: 100%;
   bottom: 0;
   position: absolute;
-  padding:10px;
+  padding: 10px;
 }
 
 footer > p {
   text-align: center;
-  color:white;
+  color: white;
   margin: 1px;
 }
 
 footer > p > a {
-  color:#b2d1fc;
+  color: #b2d1fc;
 }
 
 .uicons {
   color: #b2d1fc;
+}
+
+.about-me {
+  background-color: white;
+  margin: auto;
+  width: 50rem;
+  height: 250px;
+  border-radius: 20px;
+  padding: 5px 30px;
+}
+
+.pic {
+  width: 250px;
+  border-radius: 20px;
+}
+
+.about-div {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.hi2 {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #83b0ee;
+}
+
+.yessa2 {
+  color: #5385ca;
+  
+}
+
+.description {
+  color: #83b0ee;
+  font-weight: 500;
+}
+
+.also {
+  font-style: italic;
+  font-weight: 400;
+  font-size: .8em;
+  color: #83b0ee;
+}
+
+.tech {
+  background-color: #72a5ec;
+  color: white;
+  width: max-content;
+  padding: 20px 30px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.tech-text {
+  font-weight: 600;
+  font-size: 1.2em;
+  padding: 0;
+  margin: 0;
+}
+
+.pepper {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.body2 {
+  display: flex;
+  width: max-content;
+  margin: auto;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.vid {
+  border-radius: 3px;
+}
+
+.bunny {
+  font-size: small;
+  font-weight: 600;
+  text-align: center;
+  color: #5385ca;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.carrots {
+  color: #72a5ec;
+  font-size: smaller;
+  font-weight: 500;
+
 }

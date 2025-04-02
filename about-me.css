@@ -1,0 +1,145 @@
+body {
+    background: #9dc2f6;
+    font-family: poppins;
+  }
+  
+  .bg {
+    z-index: -1;
+  }
+  
+  .bg3 {
+    width: 100%;
+    position: absolute;
+    bottom: 100px;
+    z-index: -1;
+  }
+  
+  .bg4 {
+    width: 100%;
+    position: absolute;
+    bottom: -50px;
+    z-index: -1;
+  }
+  
+  .bg5 {
+    width: 100%;
+    position: absolute;
+    bottom: -150px;
+    z-index: -1;
+  }
+  
+  .nav {
+    z-index: 20;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0px 40px;
+    width: max-content;
+    border-radius: 30px;
+    border: 4px solid white;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    padding: 0;
+  }
+  
+  .a {
+    color: white;
+    text-decoration-line: none;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.2s;
+  }
+  
+  .a:hover {
+    color: #83b0ee;
+  }
+  
+  .pfp {
+    width: 200px;
+    border-radius: 100%;
+    border: 5px solid white;
+  }
+  
+  .yessa {
+    color: white;
+  }
+  
+  h1 {
+    color: #5385ca;
+    font-size: 5em;
+    margin: 0;
+  }
+  
+  .main-div {
+    display: flex;
+    width: max-content;
+    margin: auto;
+    margin-top: 80px;
+    gap: 5rem;
+  }
+  
+  .cloud {
+    height: 3rem;
+    stroke-width: 3px;
+    color: #72a5ec;
+  }
+  
+  .subtitle {
+    font-weight: 700;
+    font-size: 2.2em;
+  }
+  
+  .div-subtitle {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+    color: #72a5ec;
+  }
+  
+  .socials {
+    background-color: white;
+    display: flex;
+  
+    font-weight: 500;
+    gap: 1.2rem;
+    width: max-content;
+    padding: 0 30px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  .social-a {
+    display: flex;
+    gap: 0.5rem;
+    color: #5385ca;
+    text-decoration-line: none;
+  }
+  
+  footer {
+    background-color: #72a5ec;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    padding: 10px;
+  }
+  
+  footer > p {
+    text-align: center;
+    color: white;
+    margin: 1px;
+  }
+  
+  footer > p > a {
+    color: #b2d1fc;
+  }
+  
+  .uicons {
+    color: #b2d1fc;
+  }
+  
