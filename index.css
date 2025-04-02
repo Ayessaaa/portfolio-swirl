@@ -17,14 +17,14 @@ body {
 .bg4 {
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: -50px;
   z-index: -1;
 }
 
 .bg5 {
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: -150px;
   z-index: -1;
 }
 
@@ -119,5 +119,26 @@ h1 {
   gap: 0.5rem;
   color: #5385ca;
   text-decoration-line: none;
+}
 
+footer {
+  background-color: #72a5ec;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  padding:10px;
+}
+
+footer > p {
+  text-align: center;
+  color:white;
+  margin: 1px;
+}
+
+footer > p > a {
+  color:#b2d1fc;
+}
+
+.uicons {
+  color: #b2d1fc;
 }
