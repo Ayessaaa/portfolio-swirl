@@ -1,0 +1,59 @@
+body {
+  background: #9dc2f6;
+  font-family: poppins;
+}
+
+.bg {
+  z-index: -1;
+}
+
+.bg3 {
+  width: 100%;
+  position: absolute;
+  bottom: 100px;
+  z-index: -1;
+}
+
+.bg4 {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+.bg5 {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+.nav {
+  z-index: 20;
+  background-color: rgba(255, 255, 255, 0.33);
+  padding: 0px 40px;
+  width: max-content;
+  border-radius: 30px;
+  border: 4px solid white;
+  margin: auto;
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+  padding: 0;
+}
+
+a {
+  color: white;
+  text-decoration-line: none;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+a:hover{
+    color: #9dc2f6;
+}
