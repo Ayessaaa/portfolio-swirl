@@ -30,7 +30,7 @@ body {
 
 .nav {
   z-index: 20;
-  background-color: rgba(255, 255, 255, 0.33);
+  background-color: rgba(255, 255, 255, 0.2);
   padding: 0px 40px;
   width: max-content;
   border-radius: 30px;
@@ -46,7 +46,7 @@ ul {
   padding: 0;
 }
 
-a {
+.a {
   color: white;
   text-decoration-line: none;
   font-weight: 600;
@@ -54,6 +54,70 @@ a {
   transition: 0.2s;
 }
 
-a:hover{
-    color: #9dc2f6;
+.a:hover {
+  color: #83b0ee;
+}
+
+.pfp {
+  width: 200px;
+  border-radius: 100%;
+  border: 5px solid white;
+}
+
+.yessa {
+  color: white;
+}
+
+h1 {
+  color: #5385ca;
+  font-size: 5em;
+  margin: 0;
+}
+
+.main-div {
+  display: flex;
+  width: max-content;
+  margin: auto;
+  margin-top: 80px;
+  gap: 5rem;
+}
+
+.cloud {
+  height: 3rem;
+  stroke-width: 3px;
+  color: #72a5ec;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 2.2em;
+}
+
+.div-subtitle {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 1rem;
+  color: #72a5ec;
+}
+
+.socials {
+  background-color: white;
+  display: flex;
+
+  font-weight: 500;
+  gap: 1.2rem;
+  width: max-content;
+  padding: 0 30px;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.social-a {
+  display: flex;
+  gap: 0.5rem;
+  color: #5385ca;
+  text-decoration-line: none;
+
 }
